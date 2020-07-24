@@ -1,0 +1,18 @@
+{
+  "name": "omnirepo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+  },
+  "author": "lmaoclost <renansmoliveira@gmail.com>"
+}
