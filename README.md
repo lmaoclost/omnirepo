@@ -15,11 +15,12 @@ cd to the cloned folder
 ```
 $ yarn
 ```
-To install all the dependencies.
+To install all the dependencies. The projects are located inside the packages folder
 
 ## BackEnd
 cd to the server folder.
 ```
+$ cd packages/server
 $ yarn start
 ```
 The Backend will be running in the http://localhost:3333.
@@ -27,7 +28,7 @@ The Backend will be running in the http://localhost:3333.
 ## FrontEnd
 Go to another terminal.
 ```
-$ cd /web
+$ cd packages/web
 $ yarn start
 ```
 Go to http://localhost:4000 and the Web project is up and running!
@@ -35,12 +36,13 @@ Go to http://localhost:4000 and the Web project is up and running!
 ## Mobile
 I'm using Expo, so make sure that you have it. Go to another terminal.
 ```
-$ cd /app
+$ cd packages/app-expo
 $ yarn start
 ```
 Go to the expo page and connect.
 
 ## Testing
+cd to root folder
 ```
 $ yarn test
 ```
